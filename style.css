@@ -1,0 +1,167 @@
+/* backgroundand images */
+body {
+         background-image: url("04_11_2022 00_11_33.png");
+         
+         /* background-color: rgb(10, 10, 10); */
+         font-family: 'Baloo Bhai 2', cursive;
+         font-size: 18px;
+         background-repeat: no-repeat;
+         background-size: 100% 150%;
+         
+        }
+        #left {
+            display: flex;
+            width: 80px;
+            height: 116px;
+            filter: invert(100%);
+            justify-content: left;
+            margin-top: -11px;
+            margin-left: -14px;
+            border-radius: 5px;
+            
+            
+            
+            
+        }
+        df-messenger {
+            --df-messenger-bot-message: #343538;
+            --df-messenger-button-titlebar-color: #575552;
+            --df-messenger-chat-background-color: #110c0c;
+            --df-messenger-font-color: white;
+            --df-messenger-send-icon: #878fac;
+            --df-messenger-user-message: #ca9115;
+           }
+        .image img {
+            float: right;
+            height: 680px;
+            width: 1076px;
+            margin: -644px 133px;
+        
+        }
+        /* navigation bar */
+
+        .nav {
+            display: flex;
+            
+            justify-content: space-between;
+            
+            
+            
+        }
+        
+        
+        #middle {
+            
+         display: flex;
+         width: 800px;
+         height: 60px;
+         color: white;
+         margin: 55px 117px;
+         justify-content: center;
+         align-items: center;
+         
+         
+         
+        }
+        #middle a {
+            text-decoration: none;
+            color: white;
+            padding: 0px 30px;
+            margin: 9px -14px;
+        
+        
+        }
+        
+        #middle a:hover,
+        #middle a:active {
+            background-color: #da8d01e3;
+            color: black;
+            border-radius: 9px;
+   
+        }
+/* right login buttons */
+        #right {
+            display: inline;
+            float: right;
+            
+            
+            
+            
+        }
+        
+        #right button {
+            height: 42px;
+         width: 96px;
+         border-radius: 9px;
+         background-color: black;
+         color: white;
+         font-size: 22px;
+         font-family: 'Baloo Bhai 2', cursive;
+
+     }
+
+     #right button:hover {
+         background-color: rgb(26, 26, 25);
+         cursor: pointer;
+     }
+/* punch line */
+
+     .main h1 {
+         color: white;
+     }
+
+     .main h1 span {
+         color: #da8d01e3;
+         font-size: 70px;
+     }
+
+
+     #upper {
+         margin: -30px 3px;
+         text-shadow: 7px 4px black;
+
+     }
+
+     #lower {
+         text-shadow: 7px 4px black;
+         margin: -58px 271px;
+
+     }
+/* information form */
+
+     .info {
+         display: block;
+         width: 500px;
+         height: 445px;
+         border: 7px solid rgb(0, 0, 0);
+         text-align: center;
+         margin: 62px 7px;
+         color: white;
+         border-radius: 40px;
+         padding: 11px;
+     }
+
+     .info input,
+     select {
+         width: 450px;
+         height: 35px;
+         margin: 3px 3px;
+         border-radius: 10px;
+         text-align: center;
+         font-family: 'Baloo Bhai 2', cursive;
+         font-size: 20px;
+
+     }
+
+     .info input:hover,
+     .info input:active {
+         border: 4px solid #da8d01e3;
+     }
+
+     .hr {
+         font-size: 30px;
+         text-shadow: 3px 2px black;
+     }
+     #sub{
+        background-color: #da8d01e3;height: 50px;cursor: pointer;font-weight: bold;
+     }
